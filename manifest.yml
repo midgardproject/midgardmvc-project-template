@@ -1,8 +1,9 @@
 name: midgardmvc_project_template
+template_injector: midgardmvc_project_template_injector
 routes:
   index:
     path: /
     controller: midgardmvc_project_template_controllers_index
     action: index
     template_aliases:
-      content: mpt-show-welcome
+      content: mpt-show-index
