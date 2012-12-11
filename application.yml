@@ -5,9 +5,9 @@ development_mode: true
 components:
     midgardmvc_core:
         - {type: github, user: midgardproject, repository: midgardmvc_core, branch: master}
-    midgardmvc-project-template:
+    midgardmvc_project_template:
         - {type: github, user: midgardproject, repository: midgardmvc-project-template, branch: master}
 nodes:
     title: New Midgard MVC Project
     content: <p>The Midgard Project is...</p>
-    component: midgardmvc_core
+    component: midgardmvc_project_template

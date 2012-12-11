@@ -1,1 +1,8 @@
-name: midgardmvc-project-template
+name: midgardmvc_project_template
+routes:
+  index:
+    path: /
+    controller: midgardmvc_project_template_controllers_index
+    action: index
+    template_aliases:
+      content: mpt-show-welcome
