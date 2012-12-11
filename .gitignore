@@ -1,0 +1,5 @@
+composer.lock
+var/
+vendor/
+midgardmvc_aip.yml
+.vagrant

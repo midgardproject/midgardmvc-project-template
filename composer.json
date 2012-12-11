@@ -1,0 +1,11 @@
+{
+  "name": "midgard/midgardmvc-project-template",
+  "minimum-stability": "dev",
+  "require": {
+    "midgard/midgardmvc-core": "dev-master",
+    "aip/aip": "dev-master"
+  },
+  "autoload": {
+    "classmap": ["."]
+  }
+}

@@ -1,0 +1,13 @@
+services_dispatcher: appserv
+providers_component: midgardmvc
+providers_hierarchy: configuration
+development_mode: true
+components:
+    midgardmvc_core:
+        - {type: github, user: midgardproject, repository: midgardmvc_core, branch: master}
+    midgardmvc-project-template:
+        - {type: github, user: midgardproject, repository: midgardmvc-project-template, branch: master}
+nodes:
+    title: New Midgard MVC Project
+    content: <p>The Midgard Project is...</p>
+    component: midgardmvc_core
